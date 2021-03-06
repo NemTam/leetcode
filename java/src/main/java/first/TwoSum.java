@@ -15,10 +15,4 @@ class TwoSum {
         }
         throw new IllegalArgumentException("No two sum solution");
     }
-
-    public static void main(String[] args) {
-        int[] ints = {1, 2, 3, 4, 5};
-        int[] res = twoSum(ints, 5);
-        System.out.println(Arrays.toString(res));
-    }
 }
