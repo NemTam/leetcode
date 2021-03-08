@@ -27,9 +27,14 @@ public class AddTwoNumbers {
                 sum = sum % 10;
 
             }
-            lastNode.val = sum;
-            lastNode.next = new ListNode();
-            lastNode = lastNode.next;
+            if (l1 != null || l2 != null || carry != 0) {
+                lastNode.val = sum;
+                lastNode.next = new ListNode();
+                lastNode = lastNode.next;
+            } else{
+                lastNode.val = sum;
+                lastNode.next = null;
+            }
 
             System.out.println(sum);
         }
