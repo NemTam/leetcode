@@ -1,10 +1,10 @@
-package first;
+package easy;
 
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
 
-import static first.TwoSum.twoSum;
+import static easy.TwoSum.twoSum;
 
 public class TestTwoSum {
 

@@ -1,8 +1,9 @@
-package second;
+package medium;
 
+import easy.ListNode;
 import org.junit.jupiter.api.Test;
 
-public class NodeTest {
+public class AddTwoNumbersTest {
 
     @Test
     void firstTest() {

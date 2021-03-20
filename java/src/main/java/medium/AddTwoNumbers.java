@@ -1,6 +1,6 @@
-package second;
+package medium;
 
-import java.util.List;
+import easy.ListNode;
 
 public class AddTwoNumbers {
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {

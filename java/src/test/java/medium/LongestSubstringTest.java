@@ -1,5 +1,6 @@
-package third;
+package medium;
 
+import medium.LongestSubstring;
 import org.junit.jupiter.api.Test;
 
 public class LongestSubstringTest {
